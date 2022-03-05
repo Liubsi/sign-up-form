@@ -1,0 +1,114 @@
+:root {
+    font-family: 'Poppins', 'sans-serif';
+    --txt: rgb(185, 185, 185);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: var(--txt);
+}
+
+.page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.picture {
+    width: 40vw;
+    background-image: url(./4k-Galaxy-Background-Hd-Portrait-Hd-Wallpapers-.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    width: 60vw;
+    background-color: black;
+    color: aliceblue;
+
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: center;
+}
+
+.description, .title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.title {
+    width: 100%;
+}
+
+.declare {
+    margin: 40px 0 80px;
+}
+
+.form {
+    background-color: rgb(6, 6, 6);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: .7rem;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.input input{
+    background-color: black;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.toright {
+    padding-left: 3vw;
+}
+
+button {
+    background-color: black;
+    color: var(--txt);
+
+    border-radius: 5px;
+    border: 2px solid white;
+
+    padding: 15px 44px;
+    margin: 40px 0;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+
+input:focus {
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+}
